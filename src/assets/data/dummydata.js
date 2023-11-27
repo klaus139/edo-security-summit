@@ -5,7 +5,7 @@ import { BiSolidCctv } from "react-icons/bi"
 import { FaDigitalOcean } from "react-icons/fa";
 import { GrTechnology } from "react-icons/gr";
 import { MdSecurity } from "react-icons/md";
-import { images } from "@/constants";
+//import { images } from "@/constants";
 
 export const home = [
   {
@@ -54,96 +54,96 @@ export const expertise = [
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Black",
+    name: "24 / 7 operational call service",
     cover: "../images/e1.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    post: "Emergency Hotline",
+    desc: "739 emergency numbers for all types of emergency in the state",
   },
   {
     id: 2,
-    name: "Diana Green",
+    name: "Crime Detection and Monitoring",
     cover: "../images/e2.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    post: "Surveillance",
+    desc: "Solving and investigating crime using the latest technologies",
   },
   {
     id: 3,
-    name: "Alexander Black",
+    name: "Fire Control Services",
     cover: "../images/e3.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    post: "Active and ready to go fire response unit",
+    desc: "Collaborating with fire safety organisation to fight fire outbreak and prevent loss of lives and property!",
   },
-  {
-    id: 4,
-    name: "Diana Green",
-    cover: "../images/e4.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
-  },
+
 ]
 export const showcase = [
   {
     id: 1,
-    title: "Neon Lights",
-    cover: "../images/s1.jpg",
-    catgeory: "DIGITAL MARKETING",
+    title: "crime Analysis",
+    cover: "../images/sc7.jpeg",
+    catgeory: "DIGITAL",
   },
   {
     id: 2,
-    title: "Futuristic Furniture",
-    catgeory: "WEBSITES",
-    cover: "../images/s2.jpg",
+    title: "Data and Network",
+    catgeory: "Teamwork",
+    cover: "../images/sc8.jpeg",
   },
   {
     id: 3,
-    title: "Smart Living",
-    cover: "../images/s3.jpg",
+    title: "Society Safety",
+    cover: "../images/sc3.jpeg",
     catgeory: "WEBSITES",
   },
   {
     id: 4,
-    title: "Light Painting",
-    cover: "../images/s4.jpg",
-    catgeory: "BRANDING	",
+    title: "Surveillance",
+    cover: "../images/sc4.jpg",
+    catgeory: "BRANDING",
   },
   {
     id: 5,
-    title: "Ideabox",
-    cover: "../images/s5.jpg",
+    title: "Security",
+    cover: "../images/sc9.jpeg",
     catgeory: "BRANDING	",
   },
   {
     id: 5,
     title: "VR Experience",
-    cover: "../images/s6.jpg",
-    catgeory: "WEBSITES	",
+    cover: "../images/sc10.JPG",
+    catgeory: "TEAMWORK",
   },
 ]
 export const brand = [
   {
     id: 1,
-    cover: "../images/l1.svg",
+    cover: "../images/b1.png",
   },
   {
     id: 2,
-    cover: "../images/l2.svg",
+    cover: "../images/b2.png",
   },
   {
     id: 3,
-    cover: "../images/l3.svg",
+    cover: "../images/b3.png",
   },
   {
     id: 4,
-    cover: "../images/l4.svg",
+    cover: "../images/min.png",
   },
+ 
   {
     id: 5,
-    cover: "../images/l5.svg",
+    cover: "../images/b5.png",
   },
   {
     id: 6,
-    cover: "../images/l6.svg",
+    cover: "../images/b6.png",
   },
+  {
+    id: 7,
+    cover: "../images/b7.png",
+  },
+ 
 ]
 export const blogdata = [
   {
@@ -179,49 +179,91 @@ export const teamdata = [
   {
     id: 1,
     title: "Alexander Black",
-    cover: "../images/t1.jpg",
+    cover: "../images/speaker1.jpeg",
     post: "FOUNDER, CEO",
   },
   {
     id: 2,
     title: "Anna Kovalenko",
-    cover: "../images/t2.jpg",
+    cover: "../images/speaker2.jpeg",
     post: "FINANCE DIRECTOR",
   },
   {
     id: 3,
     title: "Tiffany White",
-    cover: "../images/t3.jpg",
+    cover: "../images/speaker3.jpeg",
     post: "CREATIVE DIRECTOR",
   },
   {
     id: 4,
     title: "Richard Greenwood",
-    cover: "../images/t4.jpg",
+    cover: "../images/speaker4.jpeg",
     post: "PROGRAMMER",
   },
   {
     id: 5,
     title: "Jessica Brown",
-    cover: "../images/t5.jpg",
+    cover: "../images/speaker5.jpeg",
     post: "MARKETING DIRECTOR",
   },
   {
     id: 6,
     title: "Gregory Windstorm",
-    cover: "../images/t6.jpg",
+    cover: "../images/speaker6.jpeg",
     post: "ACCOUNTING MANAGER",
   },
   {
     id: 7,
     title: "Anna Red",
-    cover: "../images/t7.jpg",
+    cover: "../images/speaker7.jpeg",
     post: "PROJECT MANAGER",
   },
   {
     id: 8,
     title: "Join our team!",
-    cover: "../images/t8.jpg",
+    cover: "../images/speaker8.jpeg",
+    post: "",
+  },
+  {
+    id: 9,
+    title: "Join our team!",
+    cover: "../images/speaker9.jpeg",
+    post: "",
+  },
+  {
+    id: 10,
+    title: "Join our team!",
+    cover: "../images/speaker10.jpeg",
+    post: "",
+  },
+  {
+    id: 11,
+    title: "Join our team!",
+    cover: "../images/speaker11.jpeg",
+    post: "",
+  },
+  {
+    id: 12,
+    title: "Join our team!",
+    cover: "../images/speaker12.jpeg",
+    post: "",
+  },
+  {
+    id: 13,
+    title: "Join our team!",
+    cover: "../images/speaker13.jpeg",
+    post: "",
+  },
+  {
+    id: 14,
+    title: "Join our team!",
+    cover: "../images/speaker14.jpeg",
+    post: "",
+  },
+  {
+    id: 15,
+    title: "Join our team!",
+    cover: "../images/speaker15.jpeg",
     post: "",
   },
 ]

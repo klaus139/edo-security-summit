@@ -1,20 +1,22 @@
+import { teamdata } from "@/assets/data/dummydata"
+import { Card } from "@/components/common/Card"
+import { Title, TitleSm } from "@/components/common/Title"
+//import team from "@/pages/team"
 import React from "react"
-import { Title } from "./common/Title"
-import { expertise } from "@/assets/data/dummydata"
-import { Card } from "./common/Card"
 
 const Speakers = () => {
   return (
     <>
-      <section className='expertise'>
+      <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='Our Speakers' />
-            <p>Speakers from distinguished security professionals</p>
+            <TitleSm title='MEET THE SPEAKERS' /> <br />
+            <br />
+            <Title title='A team of highly qualified, professional and experienced security analysts' className='title-bg' />
           </div>
-          <div className='hero-content grid-4'>
-            {expertise.map((item) => (
-              <Card data={item} key={item.id} caption='learn more' />
+          <div className='grid-4 py'>
+            {teamdata.map((item) => (
+              <Card data={item} key={item.id} caption={item.post} />
             ))}
           </div>
         </div>
@@ -23,4 +25,4 @@ const Speakers = () => {
   )
 }
 
-export default Speakers;
+export default Speakers

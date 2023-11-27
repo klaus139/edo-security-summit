@@ -10,10 +10,11 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title=' SC' caption='EdoState' className='logobg' />
+              <TitleLogo title='' caption='EdoState' className='logobg' />
+              <TitleLogo title='Security Summit'  className='logobg' />
               <br />
               <span>
-                Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
+                Questions? Reach us at <br /> 
               </span>
               <br />
               <br />
@@ -24,20 +25,15 @@ const Footer = () => {
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href='/event'>About event</Link>
               </li>
               <li>
-                <Link href='/'>Our team</Link>
+                <Link href='/speakers'>Our Speakers</Link>
               </li>
               <li>
                 <Link href='/'>Showcase</Link>
               </li>
-              <li>
-                <Link href='/'>Blog</Link>
-              </li>
-              <li>
-                <Link href='/'>Demo design system</Link>
-              </li>
+              
               <li>
                 <Link href='/'>Contact</Link>
               </li>
@@ -45,16 +41,16 @@ const Footer = () => {
             <ul>
               <h3>Features</h3>
               <li>
-                <Link href='/'>Security briefing</Link>
+                <Link href='#'>Security briefing</Link>
               </li>
               <li>
-                <Link href='/'>Command and Control</Link>
+                <Link href='#'>Command and Control</Link>
               </li>
               <li>
-                <Link href='/'>Security Architecture</Link>
+                <Link href='#'>Security Architecture</Link>
               </li>
               <li>
-                <Link href='/'>Lots More...</Link>
+                <Link href='#'>Lots More...</Link>
               </li>
             </ul>
             <ul>

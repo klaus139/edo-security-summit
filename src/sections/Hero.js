@@ -1,6 +1,9 @@
 import { home } from "@/assets/data/dummydata";
-import Banner from "@/components/Banner";
+import Brand from "@/components/Brand";
+import ShowCase from "@/components/ShowCase";
+
 import Speakers from "@/components/Speakers";
+import Testimonial from "@/components/Testimonial";
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title";
 
 const Hero = () => {
@@ -41,6 +44,10 @@ const Hero = () => {
                 </div>
             </section>
             <Speakers />
+            <Testimonial />
+            <ShowCase />
+            <Brand /> 
+           
             </>
     )
 }
