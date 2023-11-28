@@ -1,7 +1,9 @@
 import Link from "next/link"
+import Image from "next/image"
 import { TitleLogo } from "./Title"
 import { BsFacebook } from "react-icons/bs"
 import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { images } from "@/constants"
 
 const Footer = () => {
   return (
@@ -20,7 +22,16 @@ const Footer = () => {
               <br />
               <h3>+1 001 234 5678</h3>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              {/* <button className='button-primary'>Request for quote</button> */}
+              <div className="images">
+              <Image
+      src={images.edostate}
+      width={100}
+      height={100}
+      alt="Picture of the author"
+    />
+
+              </div>
             </div>
             <ul>
               <h3>COMPANY</h3>

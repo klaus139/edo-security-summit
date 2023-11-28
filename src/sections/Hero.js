@@ -2,6 +2,7 @@ import { home } from "@/assets/data/dummydata";
 import Brand from "@/components/Brand";
 import ShowCase from "@/components/ShowCase";
 
+import HomeSpeakers from "@/components/HomeSpeakers";
 import Speakers from "@/components/Speakers";
 import Testimonial from "@/components/Testimonial";
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title";
@@ -43,7 +44,7 @@ const Hero = () => {
                     </div>
                 </div>
             </section>
-            <Speakers />
+            <HomeSpeakers />
             <Testimonial />
             <ShowCase />
             <Brand /> 

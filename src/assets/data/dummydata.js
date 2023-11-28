@@ -51,6 +51,34 @@ export const expertise = [
     desc: [{ text: "Public Safety Expert" }, ],
   },
 ]
+
+export const service = [
+  {
+    id: 1,
+    title: "Edo State Government of Nigeria",
+    cover: "../images/Seal_of_Edo_State-fotor-202308028361.png",
+    desc: [{ text: "Government of Edo State" }, ],
+  },
+  {
+    id: 2,
+    title: "Ministry of Public Safety and Security",
+    cover: "../images/min.png",
+    desc: [{ text: "Ministry of Publci Safety and Security" }, ],
+  },
+  {
+    id: 3,
+    title: "Edo State Command and Control",
+    cover: "../images/ecclogo-removebg-preview.png",
+    desc: [{ text: "Edo State Command and Control" },  ],
+  },
+  {
+    id: 4,
+    title: "Federal Fire Service",
+    cover: "../images/ffs.jpeg",
+    desc: [{ text: "Federal Fire Service" }, ],
+  },
+
+]
 export const testimonial = [
   {
     id: 1,
@@ -178,92 +206,82 @@ export const blogdata = [
 export const teamdata = [
   {
     id: 1,
-    title: "Alexander Black",
+    title: "IGP Kayode Egbetokun",
     cover: "../images/speaker1.jpeg",
-    post: "FOUNDER, CEO",
+    post: "Inspector General of Police",
+    role: "Launcher EC3"
   },
   {
     id: 2,
-    title: "Anna Kovalenko",
+    title: "CP Fatai Owoseni (Rtd)",
     cover: "../images/speaker2.jpeg",
-    post: "FINANCE DIRECTOR",
+    post: "SA on Security to Oyo State Governor",
+    role: "Speaker"
   },
   {
     id: 3,
-    title: "Tiffany White",
+    title: "Maj. General Ohifeme Ejemai (Rtd)",
     cover: "../images/speaker3.jpeg",
-    post: "CREATIVE DIRECTOR",
+    post: "CEO Wainwright Consults",
+    role: "Keynote Speaker"
   },
   {
     id: 4,
-    title: "Richard Greenwood",
+    title: "Barr. Mike Ejiofor",
     cover: "../images/speaker4.jpeg",
-    post: "PROGRAMMER",
+    post: "Director DSS (Rtd)",
+    role: "Speaker"
   },
   {
     id: 5,
-    title: "Jessica Brown",
+    title: "Hon. Kinglsey Uwagbale",
     cover: "../images/speaker5.jpeg",
-    post: "MARKETING DIRECTOR",
+    post: "Comm. Public Security & Safety",
+    role: "Convener"
   },
   {
     id: 6,
-    title: "Gregory Windstorm",
+    title: "David Deuchar",
     cover: "../images/speaker6.jpeg",
-    post: "ACCOUNTING MANAGER",
+    post: "Public Security Expert",
+    role: "Speaker"
   },
   {
     id: 7,
-    title: "Anna Red",
+    title: "IGP Solomon Arase (Rtd)",
     cover: "../images/speaker7.jpeg",
-    post: "PROJECT MANAGER",
+    post: "Chairman, Police Service Commission",
+    role: "Summit Chairman"
   },
-  {
-    id: 8,
-    title: "Join our team!",
-    cover: "../images/speaker8.jpeg",
-    post: "",
-  },
+  
   {
     id: 9,
-    title: "Join our team!",
+    title: "Ebere Amaraizu",
     cover: "../images/speaker9.jpeg",
-    post: "",
+    post: "National Coordinator POCACOV",
+    role: "Speaker"
   },
   {
     id: 10,
-    title: "Join our team!",
+    title: "Adamu Dankwara",
     cover: "../images/speaker10.jpeg",
-    post: "",
+    post: "Comm of police, Edo State",
+  
   },
   {
     id: 11,
-    title: "Join our team!",
+    title: "Capt, Josiah Choms, PhD",
     cover: "../images/speaker11.jpeg",
-    post: "",
+    post: "Former CEO, Caverton Helicopters",
+    role: "Summit Moderator"
   },
   {
     id: 12,
-    title: "Join our team!",
+    title: "AIG Abutu Yaro (Rtd)",
     cover: "../images/speaker12.jpeg",
-    post: "",
+    post: "Security Consultant",
+    role: "Speaker"
   },
-  {
-    id: 13,
-    title: "Join our team!",
-    cover: "../images/speaker13.jpeg",
-    post: "",
-  },
-  {
-    id: 14,
-    title: "Join our team!",
-    cover: "../images/speaker14.jpeg",
-    post: "",
-  },
-  {
-    id: 15,
-    title: "Join our team!",
-    cover: "../images/speaker15.jpeg",
-    post: "",
-  },
+ 
+  
 ]
