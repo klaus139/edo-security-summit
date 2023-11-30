@@ -21,7 +21,7 @@ const Contact = () => {
             <TitleSm title="CONTACT" /> <br />
             <br />
             <Title
-              title="FOR BOOKINGS AND RESERVATIONS!"
+              title="FOR ENQUIRES!"
               className="title-bg"
             />
           </div>
@@ -30,7 +30,8 @@ const Contact = () => {
               <div className="contact-deatils">
                 <div className="box">
                   <FiHeadphones size={30} className="icons" />
-                  <h3>1-001-234-5678</h3>
+                  <h3>+234 810 086 7672</h3><br/>
+                  <h3>+234 807 216 3264</h3>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className="box">

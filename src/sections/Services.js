@@ -12,6 +12,7 @@ const Services = () => {
             <TitleSm title='PROUDLY POWERED BY' /> <br />
             <br />
             <Title title='Edo State Government' className='title-bg' />
+            <Title title='Ministry of Public Security and Safety' className='title-bg' />
           </div>
           <div className='grid-2 py'>
             {service.map((item) => (

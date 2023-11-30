@@ -1,9 +1,10 @@
 import React from "react"
-import { Title } from "./common/Title"
+import { Title, TitleLogo, TitleSm } from "./common/Title"
 import { showcase } from "@/assets/data/dummydata"
 import { Card } from "./common/Card"
-//import Link from "next/link"
-//import { HiOutlineArrowRight } from "react-icons/hi"
+//import { GalleryCard } from "./common/GalleryCard"
+import Link from "next/link"
+import { HiOutlineArrowRight } from "react-icons/hi"
 
 const ShowCase = () => {
   return (
@@ -15,14 +16,14 @@ const ShowCase = () => {
           </div>
           <div className='hero-content grid-3 py'>
             {showcase.map((item) => (
-              <Card data={item} key={item.id} />
+              <Card data={item} key={item.id}  />
             ))}
           </div>
-          {/* <div className='card links'>
-            <Link href='/'>
-              VIEW MORE <HiOutlineArrowRight className='link-icon' />
+          <div className='card links'>
+            <Link href='/gallery'>
+              <TitleSm title='VIEW MORE IMAGES' /> <HiOutlineArrowRight className='link-icon' />
             </Link>
-          </div> */}
+          </div>
         </div>
       </section>
     </>

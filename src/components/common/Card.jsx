@@ -10,16 +10,16 @@ export const Card = ({ data, caption, show, path, role }) => {
           <img src={data.cover} alt={data.title} />
         </div>
         <div className='card-details'>
-          <Link href={`/speakers`} className='title-link'>
+          <Link href={`${path}/${data.id}`} className='title-link'>
             <TitleSm title={data.title} />
           </Link>
           {caption && (
-            <Link href={`/speakers`}>
+            <Link href={`${path}/${data.id}`}>
               {caption} 
             </Link>
           )}
                  {role && (
-            <Link href={`/speakers`}>
+            <Link href={`${path}/${data.id}`}>
               {role} <HiOutlineArrowRight className='link-icon' />
             </Link>
           )}

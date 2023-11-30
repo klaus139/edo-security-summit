@@ -19,7 +19,8 @@ const Header = () => {
         <div className='container'>
           <div className='logo'>
             <Link href='/'>
-              <TitleLogo title=' SC' caption='Edo State' className='logomin' />
+              <TitleLogo title=' Security Summit' caption='Edo' className='logomin' />
+              
             </Link>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>
@@ -32,6 +33,9 @@ const Header = () => {
             <Link href='/speakers' className={activeLink == "/speakers" ? "activeLink" : "none"}>
               Speakers
             </Link>
+            <Link href='/gallery' className={activeLink == "/event" ? "activeLink" : "none"}>
+              Gallery
+            </Link>
             <Link href='/services' className={activeLink == "/services" ? "activeLink" : "none"}>
               Services
             </Link>
@@ -39,7 +43,7 @@ const Header = () => {
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact
             </Link>
-            <button className='button-primary'>Call to Attend</button>
+        
           </nav>
           <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
         </div>

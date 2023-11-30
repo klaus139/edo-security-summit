@@ -20,7 +20,13 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3>+1 001 234 5678</h3>
+              <span>
+              <h4>+234 807 216 3264</h4>
+              <br />
+              <h4>+234 810 086 7672</h4>
+                
+              </span>
+              
               <br />
               {/* <button className='button-primary'>Request for quote</button> */}
               <div className="images">

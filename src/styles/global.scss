@@ -12,8 +12,8 @@
     top: 0;
     left: -40%;
     width: 180%;
-    height: 200vh;
-    background-image: url("../assets/images/art-top-cropp.jpg");
+    height: 100%;
+    background-image: url("../../public/images/g29.jpg");
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -24,6 +24,10 @@
     line-height: 110px;
     font-weight: 600;
     margin: $xl-6 0;
+    color:white;
+  }
+  .hero-title h1{
+    color:white;
   }
   .sub-heading {
     display: flex;
@@ -40,6 +44,14 @@
 }
 .hero-sec {
   position: relative;
+  background-image:url('../../public/images/min.png');
+  background-position:center;
+  background-repeat: no-repeat;
+
+  
+  
+  
+  
   &::before {
     content: "";
     position: absolute;
@@ -51,6 +63,7 @@
     background-color: $dark;
     filter: blur(20px);
   }
+  
 }
 
 // expertise
@@ -66,11 +79,13 @@
   .container {
     border-radius: 50px 0 50px 0;
     padding: $xll;
-    background: rgb(192, 90, 255);
-    background: $gradient;
+    background: rgb(14, 115, 37);
+    background: $gradient3;
     @include flex(center, space-between, none);
   }
 }
+
+
 
 //testimonial
 .testimonial {
@@ -116,15 +131,21 @@
 
 //showcase
 .showcase {
+  background-color: #FFF;
   .card-img {
-    height: 400px;
+    height: 300px;
+    width:auto;
   }
+  
   .links {
     @include flex(none, flex-end, none);
   }
 }
 
 //brand
+.brand{
+  background-color: rgb(211, 214, 217);
+}
 .brand-content {
   img {
     opacity: 0.5;
@@ -165,7 +186,7 @@ footer {
   h3 {
     font-weight: 400;
     letter-spacing: 2px;
-    font-size: $lg;
+    font-size: 30px;
     margin-bottom: $xl-6;
   }
   span,
@@ -221,6 +242,7 @@ footer {
   }
 }
 .agency {
+  background-color: rgb(255, 255, 255);
   .content {
     margin-top: $xll;
     h1 {
@@ -279,7 +301,7 @@ footer {
   .right {
     border-radius: 50px 0 50px 0;
     padding: $xll;
-    background-color: #171e20;
+    background-color: #FFF;
     form {
       margin-top: $xll;
     }
@@ -378,10 +400,23 @@ footer {
 @media screen and (max-width: 468px) {
   /* Your styles for screens up to 768px width */
   .hero .hero-title {
-    font-size: 70px;
-    line-height: 110px;
-    font-weight: 600;
-    margin: $xl-6 0;
-  }
-
+    font-size: 59px;
+    line-height: 72px;
+    font-weight: 700;
+    margin: 15px 0;
 }
+  .sub-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .titleSm {
+      margin: 0 $xl-1;
+    }
+    span {
+      font-size: $xll;
+      line-height: 0;
+      color: $green;
+    }
+  }
+}
+
