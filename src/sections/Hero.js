@@ -30,7 +30,7 @@ const Hero = () => {
         </section><section className='hero-sec'>
                 <div className='container'>
                     <div className='heading-title'>
-                        {/* <Title title='The Edo State Security Agenda' className='text-7xl' /> */}
+                        <TitleSm title='The Edo State Security Agenda' className='text-7xl' />
                         <p>Enhancing the capacity and effectiveness of law enforcement agencies, to maintain law and order. Implementing measures to prevent various types of crimes through targeted interventions, awareness campaigns, and community programs.</p>
                     </div>
                     <div className='hero-content grid-4'>

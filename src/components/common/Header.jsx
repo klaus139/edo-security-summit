@@ -19,7 +19,7 @@ const Header = () => {
         <div className='container'>
           <div className='logo'>
             <Link href='/'>
-              <TitleLogo title=' Security Summit' caption='Edo' className='logomin' />
+              <TitleLogo title='' caption='Edo Security Summit' className='logomin' />
               
             </Link>
           </div>
