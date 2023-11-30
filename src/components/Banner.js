@@ -12,7 +12,7 @@ const Banner = () => {
     <div className="banner-container">
       <TitleLogo title='Unveiling the all new 24/7 Edo State Emergency Short Code' />
       <Image src={images.num} alt='739' width={300} />
-      <TitleLogo title='&' />
+      <TitleLogo title='&' /> <br />
       <Image src={images.num2} alt='739' width={300} height={100} />
       <Link href='https://ec3.netlify.app' className='title-link mt-4'>
         <TitleSm title='More Info' />
