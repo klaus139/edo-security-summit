@@ -353,7 +353,7 @@ export const teamdata = [
     path:'speaker',
     desc1:"Kayode Egbetokun, is a Nigerian police officer who is the current and 22nd Inspector General of Police. He was appointed by the President Bola Ahmed Tinubu to replace Usman Alkali Baba.",
     desc2:"He graduated from the University of Lagos, Akoka, with a bachelor's degree in Mathematics in June 1987 and lectured Mathematics briefly at Yaba College of Technology. He has a master's degree in Engineering Analysis from the University of Lagos in 1996, a postgraduate diploma in Petroleum Economics from Delta State University in 2000, and an MBA from Lagos State University, Ojo in 2004. He also holds a PhD in Peace and Security Studies from Al-hikmah University, Ilorin, Kwara State.",
-    desc3:"He has served as the Commander, Rapid Response Squad (RRS), Lagos, Squadron Commander, MOPOL, Anti-Fraud Unit, FCT Command, Abuja, Chief Superintendent of Police, Administration, Lagos State Command headquarters, Ikeja, Area Commander, Osogbo, Osun State Command and Area Commander, Gusau, Zamfara State Command",
+    desc3:"He has served as the Commander, Rapid Response Squad (RRS), Lagos, Squadron Commander, MOPOL, Anti-Fraud Unit, FCT Command, Abuja, Chief Superintendent of Police, Administration, Lagos State Command headquarters, Ikeja, Area Commander, Osogbo, Osun State Command and Area Commander, Gusau, Zamfara State Command. He will be giving a lecture on Contemporary Security Challenges at the Edo State Security Summit 2023",
   },
   {
     id: 2,
@@ -364,7 +364,7 @@ export const teamdata = [
     path:'speaker',
     desc1:"Born on August 17 1962, He bagged a degree in International studies and Diplomacy from the University of Benin and a Diploma in Police Management from the Univeristy of Jos",
     desc2:"He also has several certification in security analysis and international studies",
-    desc3:"He will be spaeking at the Edo State Security Summit on security analysis and crime detection",
+    desc3:"He will be spaeking at the Edo State Security Summit on The Future of Community Policing: Threats and Opportunities",
   },
   {
     id: 3,
@@ -375,7 +375,7 @@ export const teamdata = [
     path:'speaker',
     desc1:"Ohifeme (Ohis) Ejemai is the founder and Principal Partner of Wainwright Security Consults. His has military experience that spans over 30 years and rose to the rank of Major General. He was commissioned into the Infantry Corps of Nigerian Army. He was trained as a paratrooper and Special Forces. His experience cuts across command, instruction and staff appointments at tactical, operational and strategic levels",
     desc2:"He was Chief of Staff at the Headquarters 1 Division Kaduna as well as a Directing Staff and Chief Instructor at the Armed Forces Command and Staff College. He was a Deputy Director Peace Keeping Operations at the Defence Headquarters, which was the epicenter of peacekeeping activities of the Armed Forces of Nigeria.",
-    desc3:"He will be giving a keynote address at the Edo State Security Summit",
+    desc3:"He will be giving a keynote address at the Edo State Security Summit on evolving security dynamics",
   },
   {
     id: 4,
@@ -386,7 +386,7 @@ export const teamdata = [
      path:'speaker',
      desc1:"Highly dynamic security consultant and former Director with the Department of State Service (DSS), Barrister Mike Ejiofor has emerged the new President of the Alumni Association of the National Institute for Security Studies (AANISS)",
      desc2:"He took the number one position at the Association’s Annual General Meeting and Elections held on Saturday at the Institute in Lower Usuma Dam, Bwari Abuja.Ejiofor; a Fellow, Institute of Security (FSI) is a well known public affairs and security analyst who has continued to contribute professionally on issues that would move the nation forward particularly in the security space",
-     desc3:"He will be speaking on security analysis in a digitally changing society at the Edo State Security Summit"
+     desc3:"He will be speaking on Intelligence Dynamics: A Launch Pad for Preventive Crime Mechanism for Edo State."
   },
   {
     id: 5,
@@ -419,7 +419,7 @@ export const teamdata = [
     path:'speaker',
     desc1:"Solomon Ehigiator Arase (born 21 June 1956) is a retired Nigerian police officer. He is currently the Chairman of the Nigeria Police Service Commission. He was appointed Chairman in January 2023 by President Muhammadu Buhari. Arase also served as the 18th Inspector-General of Nigerian Police (IGP)",
     desc2:"He attended Ahmadu Bello University for his undergraduate studies and graduated with political science degree in 1980. He was recruited into the Nigerian Police a year after on December 1, 1981. He also obtained another bachelor's degree in Law from University of Benin as well as Masters from University of Lagos.",
-    desc3:"While in Police service, Arase served in various capacities including being Commissioner of Police in Akwa Ibom State as well as serving intelligence gathering unit as Assistant Inspector General. He is a Fellow of the Nigerian Defence Academy and had served in Namibia during the United Nations peacekeeping operation.",
+    desc3:"While in Police service, Arase served in various capacities including being Commissioner of Police in Akwa Ibom State as well as serving intelligence gathering unit as Assistant Inspector General. He is a Fellow of the Nigerian Defence Academy and had served in Namibia during the United Nations peacekeeping operation. He will be speaking on Policing and Security Strategies: Lessons from a Distinguised Career.",
   },
   
   {
@@ -430,7 +430,7 @@ export const teamdata = [
     role: "Speaker",
      path:'speaker',
      desc1:"He is the National Coordinator for the Police Campaign against Cultism and other Vices",
-     desc2:"He is an excellent security and safety expert who will be speaking on volent crimes and ways to combat it at the Edo State Security Summit",
+     desc2:"He is an excellent security and safety expert who will be speaking on risk, threats and mitigation strategies at the Edo State Security Summit",
      desc3:"",
   },
   {
@@ -463,7 +463,7 @@ export const teamdata = [
     role: "Speaker",
     path:'speaker',
     desc1:"AIG Abutu Yaro is a seasoned police officer and an enthusiastic security expert with numoerous accolades on his belt",
-    desc2:"He will be attending the Edo State Security Summit and will be giving a speech on crime and its effect on society",
+    desc2:"He will be attending the Edo State Security Summit and will be giving a speech on Inter-Agency Collaboration and Coordination: A Catalyst for Strengtening Security in Edo State.",
     desc3:""
   },
   {

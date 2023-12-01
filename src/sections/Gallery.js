@@ -12,7 +12,7 @@ const Gallery = () => {
               <div className='heading-title'>
                 <Title title='Our Gallery' />
                 <br />
-                <Title title='We have come a long way since we started' />
+               
                 
             
               </div>
