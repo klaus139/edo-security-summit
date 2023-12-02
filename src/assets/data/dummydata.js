@@ -85,7 +85,7 @@ export const testimonial = [
     name: "24 / 7 operational call service",
     cover: "../images/e1.jpg",
     post: "Emergency Hotline",
-    desc: "739 emergency numbers for all types of emergency in the state",
+    desc: "739 & 112 emergency numbers for all life threatening emergencies in the state",
   },
   {
     id: 2,
@@ -170,6 +170,14 @@ export const brand = [
   {
     id: 7,
     cover: "../images/b7.png",
+  },
+  {
+    id: 8,
+    cover: "../images/c33.png",
+  },
+  {
+    id: 9,
+    cover: "../images/ehl.png",
   },
  
 ]
@@ -357,39 +365,6 @@ export const teamdata = [
   },
   {
     id: 2,
-    title: "CP Fatai Owoseni (Rtd)",
-    cover: "../images/speaker2.jpeg",
-    post: "SA on Security to Oyo State Governor",
-    role: "Speaker",
-    path:'speaker',
-    desc1:"Born on August 17 1962, He bagged a degree in International studies and Diplomacy from the University of Benin and a Diploma in Police Management from the Univeristy of Jos",
-    desc2:"He also has several certification in security analysis and international studies",
-    desc3:"He will be spaeking at the Edo State Security Summit on The Future of Community Policing: Threats and Opportunities",
-  },
-  {
-    id: 3,
-    title: "Maj. General Ohifeme Ejemai (Rtd)",
-    cover: "../images/speaker3.jpeg",
-    post: "CEO Wainwright Consults",
-    role: "Keynote Speaker",
-    path:'speaker',
-    desc1:"Ohifeme (Ohis) Ejemai is the founder and Principal Partner of Wainwright Security Consults. His has military experience that spans over 30 years and rose to the rank of Major General. He was commissioned into the Infantry Corps of Nigerian Army. He was trained as a paratrooper and Special Forces. His experience cuts across command, instruction and staff appointments at tactical, operational and strategic levels",
-    desc2:"He was Chief of Staff at the Headquarters 1 Division Kaduna as well as a Directing Staff and Chief Instructor at the Armed Forces Command and Staff College. He was a Deputy Director Peace Keeping Operations at the Defence Headquarters, which was the epicenter of peacekeeping activities of the Armed Forces of Nigeria.",
-    desc3:"He will be giving a keynote address at the Edo State Security Summit on evolving security dynamics",
-  },
-  {
-    id: 4,
-    title: "Barr. Mike Ejiofor",
-    cover: "../images/speaker4.jpeg",
-    post: "Director DSS (Rtd)",
-    role: "Speaker",
-     path:'speaker',
-     desc1:"Highly dynamic security consultant and former Director with the Department of State Service (DSS), Barrister Mike Ejiofor has emerged the new President of the Alumni Association of the National Institute for Security Studies (AANISS)",
-     desc2:"He took the number one position at the Association’s Annual General Meeting and Elections held on Saturday at the Institute in Lower Usuma Dam, Bwari Abuja.Ejiofor; a Fellow, Institute of Security (FSI) is a well known public affairs and security analyst who has continued to contribute professionally on issues that would move the nation forward particularly in the security space",
-     desc3:"He will be speaking on Intelligence Dynamics: A Launch Pad for Preventive Crime Mechanism for Edo State."
-  },
-  {
-    id: 5,
     title: "Hon. Kinglsey Uwagbale",
     cover: "../images/speaker5.jpeg",
     post: "Comm. Public Security & Safety",
@@ -399,6 +374,42 @@ export const teamdata = [
     desc2:"Previously, he served as the Managing Director(MD) of Avantgarde Management Services Limited (the technical partners to Lagos State Emergency Management Agency LASEMA) and Managing Director of Fortune Global Shipping Ltd, Additionally, he was as an Executive Director at Caverton Helicopters until 2016 and served as Chief Operating Officer(COO) at Vigeo Farstad Shipping Ltd between 2005 and 2008 after his earlier career strides at Intels Nigerian Limited.",
     desc3:"Mr. Uwagbale has attended several prestigious leadership and executive courses from institutions including Harvard Business School, Cambridge University, Negotiation Academy Midrand, South Africa etc. He has an MBA from the University of Port Harcourt(Uniport), and graduated with a first degree from the University of Benin(Uniben). He will be speaking at the Edo State Security Summit"
   },
+  {
+    id: 3,
+    title: "IGP Solomon Arase (Rtd)",
+    cover: "../images/speaker7.jpeg",
+    post: "Chairman, Police Service Commission",
+    role: "Summit Chairman",
+    path:'speaker',
+    desc1:"Solomon Ehigiator Arase (born 21 June 1956) is a retired Nigerian police officer. He is currently the Chairman of the Nigeria Police Service Commission. He was appointed Chairman in January 2023 by President Muhammadu Buhari. Arase also served as the 18th Inspector-General of Nigerian Police (IGP)",
+    desc2:"He attended Ahmadu Bello University for his undergraduate studies and graduated with political science degree in 1980. He was recruited into the Nigerian Police a year after on December 1, 1981. He also obtained another bachelor's degree in Law from University of Benin as well as Masters from University of Lagos.",
+    desc3:"While in Police service, Arase served in various capacities including being Commissioner of Police in Akwa Ibom State as well as serving intelligence gathering unit as Assistant Inspector General. He is a Fellow of the Nigerian Defence Academy and had served in Namibia during the United Nations peacekeeping operation. He will be speaking on Policing and Security Strategies: Lessons from a Distinguised Career.",
+  },
+ 
+  {
+    id: 4,
+    title: "Maj. General Ohifeme Ejemai (Rtd)",
+    cover: "../images/speaker3.jpeg",
+    post: "CEO Wainwright Consults",
+    role: "Keynote Speaker",
+    path:'speaker',
+    desc1:"Ohifeme (Ohis) Ejemai is the founder and Principal Partner of Wainwright Security Consults. His has military experience that spans over 30 years and rose to the rank of Major General. He was commissioned into the Infantry Corps of Nigerian Army. He was trained as a paratrooper and Special Forces. His experience cuts across command, instruction and staff appointments at tactical, operational and strategic levels",
+    desc2:"He was Chief of Staff at the Headquarters 1 Division Kaduna as well as a Directing Staff and Chief Instructor at the Armed Forces Command and Staff College. He was a Deputy Director Peace Keeping Operations at the Defence Headquarters, which was the epicenter of peacekeeping activities of the Armed Forces of Nigeria.",
+    desc3:"He will be giving a keynote address at the Edo State Security Summit on evolving security dynamics",
+  },
+ 
+  {
+    id: 5,
+    title: "CP Fatai Owoseni (Rtd)",
+    cover: "../images/speaker2.jpeg",
+    post: "SA on Security to Oyo State Governor",
+    role: "Speaker",
+    path:'speaker',
+    desc1:"Born on August 17 1962, He bagged a degree in International studies and Diplomacy from the University of Benin and a Diploma in Police Management from the Univeristy of Jos",
+    desc2:"He also has several certification in security analysis and international studies",
+    desc3:"He will be spaeking at the Edo State Security Summit on The Future of Community Policing: Threats and Opportunities",
+  },
+ 
   {
     id: 6,
     title: "David Deuchar",
@@ -412,15 +423,16 @@ export const teamdata = [
   },
   {
     id: 7,
-    title: "IGP Solomon Arase (Rtd)",
-    cover: "../images/speaker7.jpeg",
-    post: "Chairman, Police Service Commission",
-    role: "Summit Chairman",
-    path:'speaker',
-    desc1:"Solomon Ehigiator Arase (born 21 June 1956) is a retired Nigerian police officer. He is currently the Chairman of the Nigeria Police Service Commission. He was appointed Chairman in January 2023 by President Muhammadu Buhari. Arase also served as the 18th Inspector-General of Nigerian Police (IGP)",
-    desc2:"He attended Ahmadu Bello University for his undergraduate studies and graduated with political science degree in 1980. He was recruited into the Nigerian Police a year after on December 1, 1981. He also obtained another bachelor's degree in Law from University of Benin as well as Masters from University of Lagos.",
-    desc3:"While in Police service, Arase served in various capacities including being Commissioner of Police in Akwa Ibom State as well as serving intelligence gathering unit as Assistant Inspector General. He is a Fellow of the Nigerian Defence Academy and had served in Namibia during the United Nations peacekeeping operation. He will be speaking on Policing and Security Strategies: Lessons from a Distinguised Career.",
+    title: "Barr. Mike Ejiofor",
+    cover: "../images/speaker4.jpeg",
+    post: "Director DSS (Rtd)",
+    role: "Speaker",
+     path:'speaker',
+     desc1:"Highly dynamic security consultant and former Director with the Department of State Service (DSS), Barrister Mike Ejiofor has emerged the new President of the Alumni Association of the National Institute for Security Studies (AANISS)",
+     desc2:"He took the number one position at the Association’s Annual General Meeting and Elections held on Saturday at the Institute in Lower Usuma Dam, Bwari Abuja.Ejiofor; a Fellow, Institute of Security (FSI) is a well known public affairs and security analyst who has continued to contribute professionally on issues that would move the nation forward particularly in the security space",
+     desc3:"He will be speaking on Intelligence Dynamics: A Launch Pad for Preventive Crime Mechanism for Edo State."
   },
+ 
   
   {
     id: 9,
